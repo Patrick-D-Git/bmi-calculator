@@ -3,7 +3,7 @@
 weight = int(input("Please provide your weight: "))
 height = float(input("Please provide your height: "))
 
-bmi = int(weight/(height * height))
+bmi = int(weight/(height ** 2))
 
 
 if bmi < 18.5:
